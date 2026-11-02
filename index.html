@@ -7,33 +7,54 @@
     <link rel="stylesheet"href="style.css">
 </head>
 <body>
+    <div>
     <header>
-        <div id="box">
-        <a id="b1">amazon.in</a>
-        <a>Account</a>
-        <a>MyCart</a>
-        <a>ContactUs</a>
-        <input typpe="search"placeholder="search Amazon.in">
-        <button>Search</button>
+    <div id="one"></div><h2>NDA Application Form</h2>  
+   </header> 
+   <main>
+       <big>Fill your details in the below given form:-</big>
+       <form action="/action.php">
+            <p><b>Enter Name:-</b></p>
+            <input type="text"placeholder="Enter your name"required>
+            <p><b>Enter new Password:-</b></p>
+            <input type="password"placeholder="password">
+            <p><b>Confirm new Password:-</b></p>
+            <input type="password"placeholder="password">
+            <p><b>Select class:-</b></p>
+            <label for id="id1">
+                 <input type="radio"value="classXI"name="class"id="id1">class XI
+            </label><br>
+            <label for id="id2">
+                <input type="radio"value="classXII"name="class"id="id2">class XII
+            </label><br>
+            <p><b>Select your respective city:-</b></p>
+            <select name="city"id="id1">
+                <option value="delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="srinagar">Srinagar</option>
+            </select><br>
+            <p><b>Select your science subject:-</b></p>
+            <label>
+                <input type="checkbox">Physics
+            </label>
+            <label>
+                <input type="checkbox">Chemistry
+            </label>
+            <label>
+                <input type="checkbox">Maths
+            </label>
+            <label>
+                <input type="checkbox">Biology
+            </label>
+            <p><b>Submit your form:-</b></p>
+            <input type="submit">   
+       </form>
+   </main>
+   <hr>
+   <footer>
+      </h5>For further information contact at <strong>NDAofficial@gmail.com</strong><h5>
+   </footer>
     </div>
-    </header>
-    <div id="box1">
-    <div id="d1">
-        box1
-    </div>
-    <div id="d2">
-        box2
-    </div>
-    <div id="d3">
-        box3
-    </div>
-    </div>
-    <footer>
-        Made with &hearts;<br>
-        Conditions of Use & Sale
-          Privacy Notice
-            Interest-Based Ads
-© 1996-2026, Amazon.com, Inc. or its affiliates
-    </footer>
 </body>
 </html>
